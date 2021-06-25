@@ -23,28 +23,32 @@
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="409dp" />
 
-    <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/RelativeLayout"
+    <TableLayout
+        android:id="@+id/TableLayout1"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" >
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-47dp"
+        tools:layout_editor_absoluteY="-138dp">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
 
         <Button
             android:id="@+id/botao_confirmar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
             android:text="Confirmar" />
 
         <Button
             android:id="@+id/botao_cancelar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_toRightOf="@+id/botao_confirmar"
             android:text="Cancelar" />
-    </RelativeLayout>
 
+    </TableRow>
+    </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
