@@ -7,7 +7,7 @@ import java.util.Calendar;
 
 public class AulaActivity extends Activity {
     private int dateOfDay = Calendar.getInstance().get(Calendar.DAY_OF_WEEK);
-    private final calendarA calendarA= new calendarA();
+    //private final calendarA calendarA= new calendarA();
 
 
     @Override
@@ -15,11 +15,11 @@ public class AulaActivity extends Activity {
         super.onCreate(saveInstanceState);
         setContentView(R.layout.activity_main);
 
-        if (saveInstanceState != null) dateOfDay = saveInstanceState("dateOfDay");
-        calendarA.showDay(dateOfDay);
+        //if (saveInstanceState != null) dateOfDay = saveInstanceState("dateOfDay");
+        //calendarA.showDay(dateOfDay);
     }
 
-    private int saveInstanceState(String dateOfDay) {
+    private void saveInstanceState(String dateOfDay) {
     }
 
     @Override

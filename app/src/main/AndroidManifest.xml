@@ -9,16 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoA">
-        <activity android:name=".AulaActivity_interface"></activity>
-        <activity android:name=".AulaActivity"></activity>
+
+        <activity android:name=".AulaActivity_interface" />
+        <activity android:name=".AulaActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- declareted new aCTIVITY -->
-
+        </activity>
+        <activity android:name=".CycleOfLifeActivity" />
     </application>
 
 </manifest>
