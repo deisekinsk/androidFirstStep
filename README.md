@@ -5,6 +5,7 @@ Make with:
 
     * [JAVA version] (https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) - Java SE 11
     * [GIT] (https://git-scm.com/) - Version Control
-    * [ANDROID STUDIO] (https://developer.android.com/studio?hl=pt&gclid=CjwKCAjwieuGBhAsEiwA1Ly_nUBHUyK_dWBEIjwFHeRz2HX97z1UZUDEM_S3ktMUSgdYer08qCWKEBoCEq0QAvD_BwE&gclsrc=aw.ds#downloads - IDE
+    * [ANDROID STUDIO] (https://developer.android.com/studio?hl=pt&gclid=CjwKCAjwieuGBhAsEiwA1Ly_nUBHUyK_dWBEIjwFHeRz2HX97z1UZUDEM_S3ktMUSgdYer08qCWKEBoCEq0QAvD_BwE&gclsrc=aw.ds#downloads) - IDE
+  
 
 ⌨️ com ❤️ por [Deise Kinsk](https://www.linkedin.com/in/deise-kinsk-profile/) | kinsk@msn.com 😊
